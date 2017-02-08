@@ -1,0 +1,41 @@
+﻿Build started 10/05/2015 23:06:49.
+     1>Project "C:\Users\Alisdair\Documents\Graphics Project\DirectX 2\DX11 Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Alisdair\Documents\Graphics Project\DirectX 2\DirectXTK\Inc" /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  Application.cpp
+         Application.cpp
+     1>c:\users\alisdair\documents\graphics project\directx 2\particlemodel.h(101): warning C4512: 'ParticleModel' : assignment operator could not be generated
+                 c:\users\alisdair\documents\graphics project\directx 2\particlemodel.h(12) : see declaration of 'ParticleModel'
+     1>c:\users\alisdair\documents\graphics project\directx 2\carparticlemodel.h(51): warning C4512: 'CarParticleModel' : assignment operator could not be generated
+                 c:\users\alisdair\documents\graphics project\directx 2\carparticlemodel.h(5) : see declaration of 'CarParticleModel'
+     1>c:\users\alisdair\documents\graphics project\directx 2\car.h(40): warning C4100: '_carRotationSpeed' : unreferenced formal parameter
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(116): warning C4316: 'Camera' : object allocated on the heap may not be aligned 16
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(310): warning C4316: 'Camera' : object allocated on the heap may not be aligned 16
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(318): warning C4316: 'Camera' : object allocated on the heap may not be aligned 16
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(326): warning C4316: 'Camera' : object allocated on the heap may not be aligned 16
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(334): warning C4316: 'Camera' : object allocated on the heap may not be aligned 16
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(342): warning C4316: 'Camera' : object allocated on the heap may not be aligned 16
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(558): warning C4244: 'argument' : conversion from 'int' to 'char', possible loss of data
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(1471): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(1472): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(1476): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\alisdair\documents\graphics project\directx 2\application.cpp(1477): warning C4238: nonstandard extension used : class rvalue used as lvalue
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alisdair\Documents\Graphics Project\DirectX 2\Debug\DX11 Framework.exe" /INCREMENTAL /NOLOGO d2d1.lib d3d11.lib d3dcompiler.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Alisdair\Documents\Graphics Project\DirectX 2\Debug\DX11 Framework.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alisdair\Documents\Graphics Project\DirectX 2\Debug\DX11 Framework.lib" /MACHINE:X86 /SAFESEH  "Debug\DX11 Framework.res"
+         Debug\AICar.obj
+         Debug\Appearance.obj
+         Debug\Application.obj
+         Debug\Camera.obj
+         Debug\Car.obj
+         Debug\CarParticleModel.obj
+         Debug\DDSTextureLoader.obj
+         Debug\Main.obj
+         Debug\GameObject.obj
+         Debug\OBJLoader.obj
+         Debug\ParticleModel.obj
+         Debug\Transform.obj
+         DX11 Framework.vcxproj -> C:\Users\Alisdair\Documents\Graphics Project\DirectX 2\Debug\DX11 Framework.exe
+     1>Done Building Project "C:\Users\Alisdair\Documents\Graphics Project\DirectX 2\DX11 Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.29
